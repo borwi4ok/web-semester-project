@@ -1,13 +1,13 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Main from './pages/main/Main'
+import Landing from './pages/landing/Landing'
 import Inventory from './pages/inventory/Inventory'
 
 function App() {
   return (
     <React.Fragment>
       <Switch>
-        <Route path='/' component={Main}></Route>
+        <Route path='/' component={Landing}></Route>
         <Route path='/inventory' component={Inventory}></Route>
       </Switch>
     </React.Fragment>
