@@ -1,9 +1,10 @@
 import React from 'react'
+import './Inventory.css'
 
 export default function Inventory() {
   return (
-    <div>
-      <h1>Inventory</h1>
+    <div className='containerInventory'>
+      <div className='containerInventory__background'></div>
     </div>
   )
 }
