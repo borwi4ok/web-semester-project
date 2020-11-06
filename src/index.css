@@ -13,6 +13,11 @@
   src: url('../src/fonts/SourceSansPro-Light.ttf');
 }
 
+@font-face {
+  font-family: 'SansSemiBold';
+  src: url('../src/fonts/SourceSansPro-SemiBold.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'SansRegular', 'Roboto',

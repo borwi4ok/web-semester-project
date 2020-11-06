@@ -3,7 +3,7 @@ import './Main.css'
 
 export default function Main() {
   return (
-    <div className='container'>
+    <div className='containerMain'>
       <div className='wrapperImages'>
         <div className='wrapperImages__left'></div>
         <div className='wrapperImages__right'></div>
@@ -13,7 +13,27 @@ export default function Main() {
           <span>Nickname</span>
           <span>COST</span>
         </div>
-        <div></div>
+        {/* Добавить li-component */}
+        <ul className='listOfUsers'>
+          <div>
+            <li>asd</li>
+          </div>
+          <div>
+            <li>asd</li>
+          </div>
+          <div>
+            <li>asd</li>
+          </div>
+          <div>
+            <li>asd</li>
+          </div>
+          <div>
+            <li>asd</li>
+          </div>
+          <div>
+            <li>asd</li>
+          </div>
+        </ul>
       </div>
     </div>
   )
