@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './User.module.css'
+import SelectCurrency from './SelectCurrency'
 
 export default function User() {
   return (
@@ -16,7 +17,7 @@ export default function User() {
           </span>
         </div>
       </div>
-      <div></div>
+      <SelectCurrency />
     </div>
   )
 }
