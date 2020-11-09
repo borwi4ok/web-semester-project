@@ -1,11 +1,11 @@
 import React from 'react'
-import './FAQ.css'
+import styles from './FAQ.module.css'
 
 export default function FAQ() {
   return (
-    <div className='containerFAQ'>
-      <div className='containerFAQ__background'>
-        <div className='questions'>
+    <div className={styles.containerFAQ}>
+      <div className={styles.containerFAQ__background}>
+        <div className={styles.questions}>
           <h1>Have problems?</h1>
           <ul>
             <li>Question</li>
@@ -14,7 +14,7 @@ export default function FAQ() {
             <li>Question</li>
           </ul>
         </div>
-        <div className='questions__answer'></div>
+        <div className={styles.questions__answer}></div>
       </div>
     </div>
   )

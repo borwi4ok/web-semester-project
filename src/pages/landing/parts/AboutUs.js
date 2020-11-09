@@ -1,13 +1,13 @@
 import React from 'react'
-import './AboutUs.css'
+import styles from './AboutUs.module.css'
 
 export default function AboutUs() {
   return (
-    <div className='containerAbout'>
-      <div className='containerAbout__headline'>
+    <div className={styles.containerAbout}>
+      <div className={styles.containerAbout__headline}>
         <h1>About Us</h1>
       </div>
-      <div className='containerAbout_text'>
+      <div className={styles.containerAbout_text}>
         <span>
           Le Lorem Ipsum est simplement du faux texte employé dans la
           composition et la mise en page avant impression. Le Lorem Ipsum est le
