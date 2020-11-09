@@ -8,10 +8,9 @@ export default function Inventory() {
   return (
     <div className={styles.container}>
       <div className={styles.container__background}>
-        {/* header */}
         <div className={styles.header}>
           <User />
-          <div>
+          <div className={styles.buttons}>
             <ReturnButton />
             <ChooseGame />
           </div>
