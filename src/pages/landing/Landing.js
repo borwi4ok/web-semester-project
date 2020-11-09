@@ -1,12 +1,12 @@
 import React from 'react'
-import './Landing.css'
+import styles from './Landing.module.css'
 import Main from './parts/Main'
 import AboutUs from './parts/AboutUs'
 import FAQ from './parts/FAQ'
 
 export default function Landing() {
   return (
-    <div className='wrapper'>
+    <div className={styles.wrapper}>
       <Main />
       <FAQ />
       <AboutUs />
