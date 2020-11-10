@@ -3,6 +3,9 @@ import styles from './Inventory.module.css'
 import User from './header/User'
 import ReturnButton from './header/ReturnButton'
 import ChooseGame from './header/ChooseGame'
+import CostFilter from './base/CostFilter'
+import SortByFilter from './base/SortByFilter'
+import Item from './base/Item'
 
 export default function Inventory() {
   return (
@@ -15,19 +18,16 @@ export default function Inventory() {
             <ChooseGame />
           </div>
         </div>
-        {/* middle part */}
-        <div>
-          {/* filters */}
-          {/* <div>
-          <CostFilter />
-          <SortByFilter />
-        </div> */}
-          {/* items */}
-          {/* <div>
-          <Item />
-          <Item />
-          <Item />
-        </div> */}
+        <div className={styles.container__base}>
+          <div className={styles.filters}>
+            <CostFilter />
+            <SortByFilter />
+          </div>
+          <div>
+            <Item />
+            <Item />
+            <Item />
+          </div>
         </div>
       </div>
     </div>
