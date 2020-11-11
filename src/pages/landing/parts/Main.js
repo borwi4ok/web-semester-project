@@ -7,7 +7,7 @@ export default function Main() {
       <div className={styles.containerMain}>
         <div className="navbar" >
           <div className="logo">
-            <img src='../media/logo.png'/>
+            <img src='C:\Users\ComradAlex\PhpstormProjects\web-semester-project\src\pages\landing\media\logo.png'/>
           </div>
           <div className="links">
             <a>Main</a>
