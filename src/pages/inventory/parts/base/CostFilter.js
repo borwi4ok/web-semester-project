@@ -7,11 +7,11 @@ export default function CostFilter() {
       <span>Cost</span>
       <div className={styles.wrapper}>
         <div>
-          <label for='from'>from</label>
+          <label htmlFor='from'>from</label>
           <input id='from' type='number' defaultValue='0'></input>
         </div>
         <div>
-          <label for='to'>to</label>
+          <label htmlFor='to'>to</label>
           <input id='to' type='number' defaultValue='99999'></input>
         </div>
       </div>

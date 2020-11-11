@@ -23,7 +23,22 @@ export default function Inventory() {
             <CostFilter />
             <SortByFilter />
           </div>
-          <div>
+          <div className={styles.items}>
+            <div className={styles.items__background}></div>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
             <Item />
             <Item />
             <Item />
