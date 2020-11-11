@@ -21,8 +21,8 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'SansRegular', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -30,9 +30,55 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 /* * {
   outline: 1px solid #ccc;
 } */
+
+
+.navbar {
+  display: grid;
+  min-height: 100px;
+  grid-auto-flow: column;
+  background-color: none;
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+
+.links {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 230px;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  width: 220.59px;
+  height: 64px;
+  border: 3px solid #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  outline:none;
+}
