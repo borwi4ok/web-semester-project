@@ -5,20 +5,6 @@ import styles from './Main.module.css'
 export default function Main() {
   return (
       <div className={styles.containerMain}>
-        <div className="navbar" >
-          <div className="logo">
-            <img src='C:\Users\ComradAlex\PhpstormProjects\web-semester-project\src\pages\landing\media\logo.png'/>
-          </div>
-          <div className="links">
-            <a>Main</a>
-            <a>About us</a>
-            <a>Have problems?</a>
-            <button className="button">
-              <a>Sign in</a>
-            </button>
-          </div>
-
-        </div>
         <div className={styles.wrapperImages}>
           <div className={styles.wrapperImages__left}></div>
           <div className={styles.wrapperImages__right}></div>
