@@ -16,6 +16,7 @@
   align-content: center;
   background: center url('../media/logo.png') no-repeat;
   background-size: contain;
+  minmax:100px, auto;
 }
 
 .container__links {
