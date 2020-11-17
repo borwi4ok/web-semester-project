@@ -1,50 +1,66 @@
 .container_navbar {
-    display: grid;
-    min-height: 100px;
-    grid-auto-flow: column;
-    grid-gap: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: -webkit-linear-gradient(
-            90deg,
-            rgb(241, 39, 17),
-            rgb(245, 175, 25)
-    );
-    background: -moz-linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
-    background: linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
+  display: grid;
+  min-height: 100px;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: -webkit-linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
+  background: -moz-linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
+  background: linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
 }
 
 .container__logo {
-    display: grid;
-    justify-content: start;
-    align-content: center;
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  background: center url('../media/logo.png') no-repeat;
+  background-size: contain;
 }
 
 .container__links {
-    font-family: 'SansSemiBold', 'sans-serif' ;
-    font-style: normal;
-    display: grid;
-    color: white;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 38px;
-    justify-content: center;
-    align-content: center;
-    grid-auto-flow: column;
-    grid-gap: 230px;
+  font-family: 'SansSemiBold', 'sans-serif';
+  font-style: normal;
+  display: grid;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  justify-content: space-between;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.container__links a {
+  vertical-align: center;
 }
 
 .container__button {
-    background-color: transparent;
-    color: white;
-    width: 220.59px;
-    height: 64px;
-    border: 3px solid #FFFFFF;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 38px;
-    font-family: 'SansSemiBold','sans-serif';
-    font-style: normal;
-    outline:none;
+  background-color: transparent;
+  color: white;
+  width: 220.59px;
+  height: 64px;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  font-family: 'SansSemiBold', 'sans-serif';
+  font-style: normal;
+  outline: none;
+}
+/* todo class */
+/* ul {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+li {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+} */
+
+* {
+  outline: 1px solid #ccc;
 }

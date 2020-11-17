@@ -12,9 +12,7 @@
 }
 
 .logo {
-  background: center
-    url('C:\Users\ComradAlex\PhpstormProjects\web-semester-project\src\pages\inventory\media\logo.svg')
-    no-repeat;
+  background: center url('/src/pages/inventory/media/logo.svg') no-repeat;
   background-size: 100%;
   width: 100px;
   height: 100px;
