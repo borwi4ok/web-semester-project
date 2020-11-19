@@ -1,5 +1,5 @@
 .container_navbar {
-  display: grid;
+  display:inline-grid;
   min-height: 100px;
   grid-auto-flow: column;
   grid-gap: 20px;
@@ -11,7 +11,7 @@
 }
 
 .container__logo {
-  display: grid;
+  display:inline-grid;
   justify-content: start;
   align-content: center;
   background: center url('../media/logo.png') no-repeat;
@@ -21,13 +21,13 @@
 
 .container__links {
   font-family: 'SansSemiBold', 'sans-serif';
+  display:inline-grid;
   font-style: normal;
-  display: grid;
   color: white;
   font-weight: 600;
   font-size: 30px;
   line-height: 38px;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   grid-auto-flow: column;
 }
@@ -50,8 +50,10 @@
   font-style: normal;
   outline: none;
 }
-/* todo class */
-/* ul {
+
+
+/*
+ul {
   display: grid;
   grid-auto-flow: column;
 }
@@ -60,8 +62,10 @@ li {
   display: grid;
   justify-content: center;
   align-content: center;
-} */
+}
 
-* {
+ */
+
+*{
   outline: 1px solid #ccc;
 }
