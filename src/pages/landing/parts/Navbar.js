@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import User from "../../inventory/parts/header/User";
+import User from "./User";
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
               <a>About us</a>
               <a>Have problems?</a>
               <button className={styles.container__button}>
-                  <a>Sign in</a>
+                  <a> Sign in </a>
               </button>
 
       </div>
