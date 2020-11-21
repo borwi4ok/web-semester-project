@@ -1,21 +1,14 @@
 import React from 'react'
 import styles from './User.module.css'
 
-
 export default function User() {
-    return (
-        <div className={styles.container}>
-            <div className={styles.userInfo}>
-                <p>SignedName</p>
-                <div className={styles.totalCost}>
-          <span>
-            <span>&nbsp;&nbsp;1000$</span>
-          </span>
-                </div>
-            </div>
-            <div className={styles.logoWrapper}>
-                <div className={styles.logo}></div>
-            </div>
-        </div>
-    )
+  return (
+    <div className={styles.containerUser}>
+      <div className={styles.containerUser__info}>
+        <span>SignedName</span>
+        <span>25$</span>
+      </div>
+      <div className={styles.avatar}></div>
+    </div>
+  )
 }

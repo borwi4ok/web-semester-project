@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Navbar.module.css'
 import User from './User'
 
 export default function Navbar() {
+  const [isAuth, setIsAuth] = useState(false)
   return (
     <div className={styles.container}>
       <div className={styles.logo}></div>
@@ -19,9 +20,13 @@ export default function Navbar() {
               <a>Have problems?</a>
             </li>
           </div>
-          <button className={styles.container__button}>
-            <a> Sign in </a>
-          </button>
+          {isAuth ? (
+            <User />
+          ) : (
+            <button className={styles.container__button}>
+              <a> Sign in </a>
+            </button>
+          )}
         </ul>
       </div>
     </div>

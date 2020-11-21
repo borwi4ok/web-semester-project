@@ -1,53 +1,43 @@
-.container {
+.containerUser {
+  display: grid;
   width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 120px 160px 50px;
-}
-
-.logoWrapper {
-  display: grid;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.logo {
-  background: center url('/src/pages/landing/media/logo.png') no-repeat;
-  background-size: 100%;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-}
-
-.userInfo {
-  display: grid;
-  align-content: center;
-}
-
-.userInfo p {
-  color: #fff;
-  font-size: 30px;
-  margin: 0 0 5px 0;
-  padding-left: 10px;
-  font-family: 'SansSemiBold';
-  cursor: default;
-}
-
-.totalCost {
-  font-family: 'SansBold';
+  grid-template-columns: auto 100px;
+  color: #000;
   font-size: 20px;
-  padding: 5px;
-  cursor: default;
+  position: relative;
 }
 
-.totalCost > span {
-  border: 1px solid #fff;
-  padding: 5px 10px 5px 10px;
-  background-color: rgba(204, 204, 204, 0.3);
+.containerUser__info {
+  display: grid;
+  width: 100%;
+  grid-auto-flow: row;
+  align-content: flex-start;
+  padding-top: 15px;
+  grid-template-rows: 30px 30px;
+  margin-left: -5px;
+  padding-right: 5px;
 }
 
-.totalCost > span > span {
-  color: #fff;
-  font-size: 24px;
+.containerUser__info span {
+  margin: 0 auto;
+}
+
+.containerUser__info span:last-child {
   font-family: 'SansBold';
+}
+
+.avatar {
+  background: center no-repeat url('../media/avatar.svg');
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1000px) {
+  .avatar {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+  }
 }
