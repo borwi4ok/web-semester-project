@@ -5,11 +5,7 @@
   margin: 0;
   grid-template-rows: 30% 70%;
   z-index: 1;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgb(241, 39, 17),
-    rgb(245, 175, 25)
-  );
+  background: -webkit-linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
   background: -moz-linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
   background: linear-gradient(90deg, rgb(241, 39, 17), rgb(245, 175, 25));
 }
@@ -54,7 +50,7 @@
   box-sizing: border-box;
   color: #fff;
   position: relative;
-  top: 170px;
+  top: 60px;
 }
 /* TODO adaptive table of users */
 /* @media screen and (max-height: 500px) {
@@ -62,6 +58,15 @@
     height: 400px;
   }
 } */
+
+@media screen and (max-width: 1000px) {
+  .tableOfUsers__headlines span {
+    font-size: 24px;
+  }
+  .listOfUsers div li {
+    font-size: 20px;
+  }
+}
 
 .tableOfUsers__headlines {
   display: grid;

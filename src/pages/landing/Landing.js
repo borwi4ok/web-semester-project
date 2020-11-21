@@ -8,7 +8,6 @@ import Navbar from './parts/Navbar'
 export default function Landing() {
   return (
     <div className={styles.wrapper}>
-      <Navbar />
       <Main />
       <FAQ />
       <AboutUs />
