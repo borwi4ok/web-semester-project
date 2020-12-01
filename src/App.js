@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import Landing from './pages/landing/Landing'
 import Inventory from './pages/inventory/parts/Inventory'
 
+
 function App() {
   return (
     <React.Fragment>
