@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-rows: 85% 15%;
+  height: 95px;
+  z-index: 1000;
+  max-width: 130px;
+}
+
+.imageCost {
+  position: relative;
+  background: center
+    url('https://cdn.dota2.net//item/Codicil+of+the+Veiled+Ones/100.png')
+    no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  margin: 10px 15px 5px 15px;
+  transform: scale(1.1);
+  border: 1px solid #fff;
+}
+
+/* Возможно нужно убрать */
+.imageCost:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 0px 6px 0px #ccc;
+}
+
+.imageCost span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-family: 'SansBold';
+  color: #fdeb9a;
+  font-size: 17px;
+  z-index: 1000;
+}
+
+.itemName {
+  color: #fff;
+  font-family: 'SansRegular';
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.container:hover .itemName {
+  transform: scale(1.05);
+}

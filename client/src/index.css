@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'SansRegular';
+  src: url('../src/fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'SansBold';
+  src: url('../src/fonts/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'SansLight';
+  src: url('../src/fonts/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+  font-family: 'SansSemiBold';
+  src: url('../src/fonts/SourceSansPro-SemiBold.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'SansRegular', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* * {
+  outline: 1px solid #ccc;
+} */

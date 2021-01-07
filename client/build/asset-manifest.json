@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-semester-project/static/css/main.27ec7736.chunk.css",
+    "main.js": "/web-semester-project/static/js/main.87c3436c.chunk.js",
+    "main.js.map": "/web-semester-project/static/js/main.87c3436c.chunk.js.map",
+    "runtime-main.js": "/web-semester-project/static/js/runtime-main.97e09e19.js",
+    "runtime-main.js.map": "/web-semester-project/static/js/runtime-main.97e09e19.js.map",
+    "static/js/2.1320cc6d.chunk.js": "/web-semester-project/static/js/2.1320cc6d.chunk.js",
+    "static/js/2.1320cc6d.chunk.js.map": "/web-semester-project/static/js/2.1320cc6d.chunk.js.map",
+    "index.html": "/web-semester-project/index.html",
+    "static/css/main.27ec7736.chunk.css.map": "/web-semester-project/static/css/main.27ec7736.chunk.css.map",
+    "static/js/2.1320cc6d.chunk.js.LICENSE.txt": "/web-semester-project/static/js/2.1320cc6d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/web-semester-project/static/media/SourceSansPro-SemiBold.43cc81b4.ttf",
+    "static/media/User.module.css": "/web-semester-project/static/media/logo.53f7b758.svg",
+    "static/media/FAQ.module.css": "/web-semester-project/static/media/background.49347755.png",
+    "static/media/Inventory.module.css": "/web-semester-project/static/media/background_items.953e574d.png",
+    "static/media/Main.module.css": "/web-semester-project/static/media/right.5c9d2bb6.svg",
+    "static/media/Navbar.module.css": "/web-semester-project/static/media/logo.f2d6bb1e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e09e19.js",
+    "static/js/2.1320cc6d.chunk.js",
+    "static/css/main.27ec7736.chunk.css",
+    "static/js/main.87c3436c.chunk.js"
+  ]
+}
